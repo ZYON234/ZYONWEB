@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página de Descarga</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .file-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .file-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .file-icon {
+            font-size: 24px;
+            color: #555;
+            margin-right: 10px;
+        }
+
+        .file-name {
+            flex-grow: 1;
+        }
+
+        .download-link {
+            color: #0088cc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .download-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Página de Descarga</h1>
+        <ul class="file-list">
+            <li class="file-item">
+                <span class="file-icon">📂</span>
+                <span class="file-name">Proximamente</span>
+                <a class="download-link" href="app/" download>Descargar</a>
+            </li>
+            <li class="file-item">
+                <span class="file-icon">📄</span>
+                <span class="file-name">Proximamente</span>
+                <a class="download-link" href="app/" download>Descargar</a>
+            </li>
+            <li class="file-item">
+                <span class="file-icon">📁</span>
+                <span class="file-name">Proximamente</span>
+                <a class="download-link" href="app/" download>Descargar</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
